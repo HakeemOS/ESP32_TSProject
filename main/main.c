@@ -70,7 +70,7 @@ void setup(){
 
 void app_main(void){
     setup(); 
-    while (1){                                                                      //Suspend Task 2 every 2s 
+    while (1){                                                                      //Suspend Task 2 every 2s 4 times 
         for (size_t i = 0; i < 4; i++)
         {
             vTaskDelay(2000/portTICK_PERIOD_MS); 
